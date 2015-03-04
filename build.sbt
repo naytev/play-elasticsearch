@@ -1,6 +1,6 @@
 name := "play-elasticsearch"
 
-version := "1.4.0"
+version := "1.4.6"
 
 organization := "com.naytev"
 
@@ -18,10 +18,8 @@ libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play" % "2.3.1" % "provided",
   "com.typesafe.play" % "play-exceptions" % "2.3.1" % "provided",
   "com.typesafe.play" %% "play-test" % "2.3.1" % "test",
-  "com.sksamuel.elastic4s" %% "elastic4s" % "1.4.0"
+  "com.sksamuel.elastic4s" %% "elastic4s" % "1.4.6"
 )
-
-isSnapshot := true
 
 publishMavenStyle := true
 
